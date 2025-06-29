@@ -12,7 +12,7 @@ This AI-powered Connect 4 game uses algorithms to predict and select the best mo
 ### Alpha Beta Pruning
 
 Alpha-beta pruning in Connect 4 involves discarding irrelevant game branches while exploring possible moves. It evaluates the game state by assigning alpha (the best value for the maximizing player) and beta (the best value for the minimizing player). By disregarding unpromising moves, it significantly reduces the number of nodes analyzed, optimizing the AI's decision-making process and improving computational efficiency.
-<img src="./assets/minimax with alpha beta pruning .jpg">
+<img src="./asset/minimax with alpha beta pruning .jpg">
 
 
 ### Pseudocode
@@ -40,7 +40,7 @@ function alphabeta(node, depth, α, β, maximizingPlayer) is
 
 ### Comparison between Minimax and Minimax with Alpha Beta Pruning
 
-<img src="./assets/Comparison M vs MAP.jpg">
+<img src="./asset/Comparison M vs MAP.jpg">
 
 ## Source
 [Alpha beta Pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
